@@ -5,7 +5,8 @@
         <div class="detail-info">
         <h4>{{project.specs}}</h4>
         <h4>Github: <a :href='project.github' target="_blank">Click here!</a></h4>
-        <h4>Deployed: <a :href='project.deploy' target="_blank">Click here!</a></h4>
+      
+        <h4 v-if = "project.deploy != null" >Deployed: <a :href='project.deploy' target="_blank">Click here!</a></h4>
         </div>
         <div class="photo-container" v-if = "project.name === 'Group Javascript/Vue Project: Fruits of the World' " >
             

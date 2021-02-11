@@ -47,14 +47,13 @@
 
     <modal
       name="project-modal"
-      width="50%"
+      width="700"
       height="auto"
       :adaptive="true"
-      :draggable="true"
       :reset="true"
       :scrollable="true"
     >
-      <div class="content">
+      <div class="pop-content">
         <button id="close" @click="hide()">x</button>
         <project-detail
           v-if="selectedProject"
@@ -62,7 +61,7 @@
         ></project-detail>
       </div>
     </modal>
-    <footer>Made with Vue. Ruth Foulis ©</footer>
+    <footer>Made with Vue. Ruth Foulis 2021©</footer>
   </div>
 </template>
 
@@ -91,8 +90,9 @@ export default {
           name: "Group Javascript/Vue Project: Fruits of the World",
           specs: "Created using Javascript, Vue.js, Express.js, Node.js, MongoDB, Leaflet, Highcharts, Modal.js, Web APIs.",
           details:
-            "This app was created in a group of three, over six and a half days. It is full-stack educational web app detailing nutritional and origin information on a selection of different fruits. Pitched at 9-12 year olds for use in the classroom to aid learning on food nutrition, we wanted to create a fun and friendly app and I think we achieved that! Each team member worked on a different feature- pop ups, maps, charts- and it all came together really nicely. I had a lot of fun learning about modals and plan to dip my toes in the water of google charts to bring a bigger map to the main page.",
+            "This app was created in a group of three, over six and a half days. It is full-stack educational web app detailing nutritional and origin information on a selection of different fruits. Pitched at 9-12 year olds for use in the classroom to aid learning on food nutrition, we wanted to create a fun and friendly app and I think we achieved that! Each team member worked on a different feature- pop ups, maps, charts- and it all came together really nicely. I had a lot of fun learning about modals and really enjoyed refactoring the project more recently to bring a bigger interactive map to the main page.",
           github: "https://github.com/ruthierutho/fruit_app_javascript_project",
+          deploy: "https://ruthierutho.github.io/fruit_app_javascript_refactor/"
         },
         {
           name: "Group Java/React Project: RoundIn Ordering App",
@@ -144,12 +144,12 @@ body {
   background-color: rgb(253, 238, 230);
   padding: 0 0 0 0;
   margin-top: 0;
-  width: 100%;
+ align-content: center;
   justify-content: center;
+  justify-items: center;
 }
 
 .title-holder {
-  width: 100%;
   border: 1px;
   background-color: rgb(253, 238, 230);
   padding: 20px;
@@ -195,20 +195,19 @@ body {
 }
 
 .about {
-  width: 65%;
+
   border: 1px;
   background-color: darkgreen;
-  padding: 20px;
-  margin: 10px;
-  margin-left: 15%;
+  padding: 1%;
+  margin: 0% 10% 0% 10%;
   align-items: center;
+  align-content: center;
   justify-content: center;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
   color: turquoise;
   cursor: pointer;
-  text-align: left;
-  display: grid;
+
 }
 .list-item {
   font-family: "Montserrat", sans-serif;
@@ -228,15 +227,13 @@ body {
   cursor: pointer;
 }
 
-.content {
+.pop-content {
   background-color: seagreen;
   font-family: "Montserrat", sans-serif;
   padding: 20px 20px 20px 20px;
   color: darkseagreen;
   overflow-y: auto;
   height: 100%;
-  align-items: center;
-  align-content: center;
   justify-content: center;
 
 }
@@ -247,7 +244,6 @@ body {
   background-color: seagreen;
   color: turquoise;
   border-radius: 5px;
-  margin-left: 98%;
   text-align: center;
   align-content: right;
 }

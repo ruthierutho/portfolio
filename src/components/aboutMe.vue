@@ -34,7 +34,8 @@
               <a
                 href="mailto:ruthlilfoulis@gmail.com"
                 target="_blank"
-                class="list-item"
+                class="list-item2"
+                
               >
                 email!
               </a>
@@ -68,8 +69,7 @@ export default {
   text-align: center;
   align-content: right;
   justify-content: right;
-  padding: 0 0 0 0;
-  margin-left: 97%;
+  padding: 1px 1px 1px 1px;
   width: 24px;
 }
 .close:hover {
@@ -81,8 +81,7 @@ export default {
 .me {
   background-color: darkseagreen;
   border-radius: 5px;
-  align-self: left;
-  max-width: 85%;
+  max-width: 100px;
   
 }
 
@@ -93,14 +92,13 @@ export default {
   line-height: 1.6;
   border: 3px solid darkseagreen;
   border-radius: 5px;
-  padding: 10px 10px 10px 10px;
+  padding: 1% 0% 1% 1%;
 }
 
 .words2 {
-  justify-content: right;
-
-  margin: 0px 0px 0px 10px;
-  padding: 10px 10px 10px 10px;
+  justify-content: center;
+  margin: 0% 0% 0% 1%;
+  padding: 1% 0% 1% 1%;
   width: 90%;
   line-height: 1.6;
 }
@@ -114,23 +112,41 @@ export default {
   border-radius: 5px;
   width: 90%;
   color: darkgreen;
-  padding: 0px 10px 0px 10px;
-  margin: 0px 0px 0px 10px;
+  padding: 0px 5px 0px 5px;
+  margin: 0px 0px 0px 0px;
 }
 
-/* .afterafterwords {
-  border: 3px solid darkseagreen;
+.afterafterwords {
+ 
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.list-item2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  background-color: seagreen;
+  color: turquoise;
   border-radius: 5px;
-  padding: 10px 10px 10px 10px;
-  margin: 0px 0px 0px 10px;
-} */
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.list-item2:hover {
+  background-color: darkseagreen;
+  color: seagreen;
+  cursor: pointer;
+}
+
 
 .about-me {
   display: flex;
   flex-direction: row;
   
   list-style-type: none;
-  align-content: space-between;
-  padding: 0 0 0 0;
+  align-content:space-around;
+  
 }
 </style>
