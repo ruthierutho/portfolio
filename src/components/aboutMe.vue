@@ -81,14 +81,15 @@ export default {
 .me {
   background-color: darkseagreen;
   border-radius: 5px;
-  max-width: 100px;
+  max-width: 120px;
+  margin: 5px 5px 5px 10px;
   
 }
 
 .words {
   justify-content: right;
-  margin: 0px 0px 0px 10px;
-  max-width: 90%;
+  margin: 0px 10px 0px 10px;
+  max-width: 870px;
   line-height: 1.6;
   border: 3px solid darkseagreen;
   border-radius: 5px;
@@ -144,9 +145,10 @@ export default {
 .about-me {
   display: flex;
   flex-direction: row;
-  
+  flex-wrap: wrap;
   list-style-type: none;
   align-content:space-around;
+  padding: 0% 0% 0% 0%;
   
 }
 </style>
