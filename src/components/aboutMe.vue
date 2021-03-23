@@ -7,17 +7,15 @@
       </li>
       <li>
         <div class="words">
-          <h4 class="words2">
+          <h4 class="afterwords">
             As a <b>software developer</b> with a background in academia, arts,
             and childcare, I am ready to dive into a career in the tech
             industry. I bring strong skills in <b>research</b>,
             <b>communication</b>, and <b>creative thinking</b>.
-          </h4>
-          <h4 class="words2">
+          
             I am always looking for opportunities to learn and develop, solve
             new problems, and make meaningful contributions to the world.
-          </h4>
-          <h4 class="words2">
+         
             I have recently completed a intensive 16 week Professional Software
             Development course at CodeClan and I am excited to take my first
             steps into the tech industry.
@@ -93,7 +91,7 @@ export default {
   line-height: 1.6;
   border: 3px solid darkseagreen;
   border-radius: 5px;
-  padding: 1% 0% 1% 1%;
+  padding: 2% 0% 1% 2%;
 }
 
 .words2 {
@@ -108,19 +106,21 @@ export default {
   justify-content: right;
   justify-self: right;
   align-content: right;
-  text-align: right;
+  text-align: left;
   background-color: darkseagreen;
   border-radius: 5px;
   width: 90%;
   color: darkgreen;
   padding: 0px 5px 0px 5px;
-  margin: 0px 0px 0px 0px;
+  margin: auto;
 }
 
 .afterafterwords {
  
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  padding: auto;
+  margin: auto;
+  align-content: center;
+  text-align: center;
 }
 
 .list-item2 {

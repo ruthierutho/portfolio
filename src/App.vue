@@ -78,7 +78,7 @@ export default {
     return {
       projects: [
         {
-          name: "Solo Python Project: Disneyland ToDo List",
+          name: "Disneyland Bucket List: Solo Python Project",
           specs:"Created using Python, Flask, PostgreSQL, HTML, CSS, Unittest.",
           details:
             "This app was created solo in about six days. It is full-stack web app allowing users to add and edit Disneyland Paris attractions to their ‘still to see’ list and update entries once an attraction has been visited. This app was really fun to make and really grew my confidence with Python, handling routes and coding in general. The colour scheme may not be for everyone but I like it!!",
@@ -87,7 +87,7 @@ export default {
           deploy: "https://dsneyland-python-app.herokuapp.com/attractions",
         },
         {
-          name: "Group Javascript/Vue Project: Fruits of the World",
+          name: "Fruits of the World: Group Javascript/Vue Project",
           specs: "Created using Javascript, Vue.js, Express.js, Node.js, MongoDB, Leaflet, Highcharts, Modal.js, Web APIs.",
           details:
             "This app was created in a group of three, over six and a half days. It is full-stack educational web app detailing nutritional and origin information on a selection of different fruits. Pitched at 9-12 year olds for use in the classroom to aid learning on food nutrition, we wanted to create a fun and friendly app and I think we achieved that! Each team member worked on a different feature- pop ups, maps, charts- and it all came together really nicely. I had a lot of fun learning about modals and really enjoyed refactoring the project more recently to bring a bigger interactive map to the main page.",
@@ -95,13 +95,21 @@ export default {
           deploy: "https://ruthierutho.github.io/fruit_app_javascript_refactor/"
         },
         {
-          name: "Group Java/React Project: RoundIn Ordering App",
+          name: "RoundIn Ordering: Group Java/React Project",
           specs: "Created using a Spring backend with an H2 database, with a React front end for venues and for customers.",
           details:
             "This app was created in a group of four, over seven days. It is a full-stack web app allowing customers and venues to handle and organise remote pre-bookings for food and drink orders. There are separate venue and customer frontends. This project was a big challenge! We all felt very new to React when we started but took on the steep learning curve and ended up with a well functioning and feasible app.",
           github: "https://github.com/ruthierutho/roundIn-ordering-app",
           photo: "./images/beer.png",
         },
+        {
+          name: "Music Box: Post-CodeClan Solo React App",
+          specs: "Created using React.",
+          details: "This is a fun app for kids! Users can click the musical instrument buttons to hear them play, or hit the 'Play' button to display prompts to find specific instruments. Further extensions for this project would be to add a 'hard mode' for the questions to challenge the user further and to add a voice command for the questions too.",
+          github: "https://github.com/ruthierutho/music-box-react",
+          deploy: "https://ruthierutho.github.io/music-box-react/"
+        
+        }
       ],
       selectedProject: null,
       selectedAbout: null,
